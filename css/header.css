@@ -1,0 +1,47 @@
+/* header */
+.header{
+    background: white;
+    /* display */
+    display: flex;
+    align-items: center;
+    /* taille */
+    width: 100vw;
+    height: 5vh;
+}
+img{
+    margin-left: 20px;
+    width: 120px;
+    height: 30px;
+}
+
+/* Conteneur formulaire */
+.search{
+    background : linear-gradient(0deg, rgba(33, 33, 109, 0.808),rgba(103, 162, 218, 0.801));
+    /* display */
+    display: flex;
+    align-items: center;
+    
+    /* taille */
+    width: 100vw;
+    height: 5vh;
+}
+
+    /* Formulaire */
+    .form_search{
+        display: flex;
+        /* position */
+        margin-left: 20px;
+    }
+    .form_search label{
+        color: white;
+        margin-left: 50px;
+
+    }
+    .form_search section{
+        
+
+    }
+    .form_search select{
+        width: 140px;
+        height: 22px;
+    }
